@@ -2,25 +2,25 @@ class Bb < Formula
   desc "Bitbucket Cloud CLI"
   homepage "https://github.com/biokraft/bbcloud"
   license "MIT"
-  version "0.11.0"
+  version "0.11.1"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/biokraft/bbcloud/releases/download/v0.11.0/bbcloud-v0.11.0-aarch64-apple-darwin.tar.gz"
-      sha256 "60f93ee68d77abf6c91dc9f3bbddeaf9d78dbee4215cf55ee61dffe88cee42a0"
+      url "https://github.com/biokraft/bbcloud/releases/download/v0.11.1/bbcloud-v0.11.1-aarch64-apple-darwin.tar.gz"
+      sha256 "669e63b2c46e4f10b89f623f89aeb36ea15a4870fdc88c59719b6b4a1ecc13d5"
     else
-      url "https://github.com/biokraft/bbcloud/releases/download/v0.11.0/bbcloud-v0.11.0-x86_64-apple-darwin.tar.gz"
-      sha256 "9b657ecbc37fe492cc99589cfc5fa51e33491f642c4bf8761798e429cf517f50"
+      url "https://github.com/biokraft/bbcloud/releases/download/v0.11.1/bbcloud-v0.11.1-x86_64-apple-darwin.tar.gz"
+      sha256 "9e441ae35d41ad815e524158a428d4c6d3f6ef38122b2d781c97779211790228"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/biokraft/bbcloud/releases/download/v0.11.0/bbcloud-v0.11.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "e1fff22ef050ab75e5a50864b09a1e8c34e68dd04a4637c6a3c169259cadcd60"
+      url "https://github.com/biokraft/bbcloud/releases/download/v0.11.1/bbcloud-v0.11.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "75eb737b42812baa1c032c13b68e513ff8d17e693b1bfd03737eadfe0ba35770"
     else
-      url "https://github.com/biokraft/bbcloud/releases/download/v0.11.0/bbcloud-v0.11.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "8ab9546d04a3e21bb974e003305d9f0b824375752bd7c2fa69abe175d3237960"
+      url "https://github.com/biokraft/bbcloud/releases/download/v0.11.1/bbcloud-v0.11.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "2707d9742c445b3dd06320136f9e9abe6e88753d55bc312f6bd5d542217d6920"
     end
   end
 
